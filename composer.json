@@ -1,0 +1,17 @@
+{
+    "name": "tenglin/php-sftp",
+    "description": "Local files are uploaded to the server via sftp",
+    "authors": [
+        {
+            "name": "Tenglin",
+            "email": "tenglin@ejcms.com",
+            "homepage": "https://github.com/Mr-Tenglin/php-sftp"
+        }
+    ],
+    "require": {
+        "phpseclib/phpseclib": "~2.0"
+    },
+    "autoload":{
+        "files": ["sftp.php"]
+    }
+}
