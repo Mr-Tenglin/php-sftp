@@ -5,7 +5,7 @@ use phpseclib\Net\SFTP as SecFtp;
 
 class Sftp {
 	private $sftp = false;
-	private $DIRS = "linux"; // Sftp Server system version
+	public $DIRS = "linux"; // Sftp Server system version, Default linux.
 
 	// new Sftp Login to SFTP server
 	public function __construct($server = "", $user = "", $password = "", $port = 22) {
